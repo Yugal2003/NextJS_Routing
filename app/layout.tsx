@@ -1,3 +1,5 @@
+//NOTE => first go to summary.tsx file
+
 import { ReactNode } from 'react';
 import './globals.css';
 import Link from 'next/link';
