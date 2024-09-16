@@ -21,6 +21,33 @@
 
 // DYNAMIC ROUTING START
 
+// 'use client'
+// import Link from "next/link";
+
+// const Home = () => {
+//   return (
+//     <div>
+//         <h1>Welcome Home Page.</h1>
+//         <Link href='/DynamicRouting'>Go Dynamic Routing Page</Link>
+//     </div>
+//   );
+// }
+
+
+// export default Home;
+
+// DYNAMIC ROUTING END
+
+
+
+
+
+
+
+
+
+//CatchAllSegmentsOfRouteNextJS start
+
 'use client'
 import Link from "next/link";
 
@@ -28,7 +55,7 @@ const Home = () => {
   return (
     <div>
         <h1>Welcome Home Page.</h1>
-        <Link href='/DynamicRouting'>Go Dynamic Routing Page</Link>
+        <Link href='/CatchAllSegmentsOfRouteNextJS'>Goc Catch All Segments Of Route Page</Link>
     </div>
   );
 }
@@ -36,4 +63,5 @@ const Home = () => {
 
 export default Home;
 
-// DYNAMIC ROUTING END
+
+//CatchAllSegmentsOfRouteNextJS End
