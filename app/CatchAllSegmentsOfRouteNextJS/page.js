@@ -8,7 +8,7 @@ const CatchAllSegmentsOfRouteNextJS = () =>{
     return(
         <div>
             <h1>Welcome To CatchAllSegments Page</h1>
-            <Link href='/'>Back To Home Page</Link>
+            <Link href='/'><button>Back To Home Page</button></Link>
         </div>
     )
 }

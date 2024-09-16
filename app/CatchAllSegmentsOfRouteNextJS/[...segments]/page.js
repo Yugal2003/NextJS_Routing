@@ -4,12 +4,23 @@
 
 import Link from "next/link";
 
-const segments = () =>{
+const segments = ({params}) =>{
+    console.log(params);
+    
     return(
         <div>
             <h1>Welcome To Segments Page</h1>
-            <Link href='/'>Back To Home Page</Link><br></br><br></br>
-            <Link href='/CatchAllSegmentsOfRouteNextJS'>Goc Catch All Segments Of Route Page</Link>
+            {
+                params.segments.map((ele,index) =>{
+                    return(
+                        <div key={index}>
+                            <h2>Data {index + 1} : {ele}</h2>
+                        </div>
+                    )
+                })
+            }
+            <Link href='/'><button>Back To Home Page</button></Link><br></br><br></br>
+            <Link href='/CatchAllSegmentsOfRouteNextJS'><button>Goback To Catch All Segments Page</button></Link>
         </div>
     )
 }
