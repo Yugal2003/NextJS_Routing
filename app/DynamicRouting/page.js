@@ -33,7 +33,7 @@ const DynamicRouting = () => {
                                 </Link>
                             </li>
                         </div>
-                    )
+                    ) 
                 })
             }
         </div>
