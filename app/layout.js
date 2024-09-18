@@ -23,7 +23,7 @@
 
 
 
-// DYNAMIC ROUTING START
+// nextjs script tag start
 
 'use client'
 
@@ -40,7 +40,7 @@ const RootLayout = ({children}) => {
 export default RootLayout
 
 
-// DYNAMIC ROUTING END
+// nextjs script tag end
 
 
 

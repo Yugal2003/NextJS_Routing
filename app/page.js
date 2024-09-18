@@ -23,20 +23,20 @@
 
 // DYNAMIC ROUTING START
 
-'use client'
-import Link from "next/link";
+// 'use client'
+// import Link from "next/link";
 
-const Home = () => {
-  return (
-    <div>
-        <h1>Welcome Home Page.</h1>
-        <Link href='/DynamicRouting'>Go Dynamic Routing Page</Link>
-    </div>
-  );
-}
+// const Home = () => {
+//   return (
+//     <div>
+//         <h1>Welcome Home Page.</h1>
+//         <Link href='/DynamicRouting'>Go Dynamic Routing Page</Link>
+//     </div>
+//   );
+// }
 
 
-export default Home;
+// export default Home;
 
 // DYNAMIC ROUTING END
 
@@ -104,3 +104,34 @@ export default Home;
 // export default Home;
 
 // fetch api for server side start
+
+
+
+
+
+
+
+
+
+
+
+
+// nextjs script tag start
+
+
+
+import Link from "next/link";
+
+const Home = () => {
+  return (
+    <div>
+        <h1>Welcome Home Page.</h1>
+        <Link href='/scriptcompo'>Go Location Page</Link>
+    </div>
+  );
+}
+
+
+export default Home;
+
+// nextjs script tag end
