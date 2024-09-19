@@ -8,6 +8,7 @@ const Student = ({ params }) => {
     const name = searchParams.get('name')
     const address = searchParams.get('address')
     const gender = searchParams.get('gender')
+    console.log(params);
     
     return (
         <div>

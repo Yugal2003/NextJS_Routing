@@ -2,8 +2,6 @@
 // import img1 from '../assets/pc.jpeg';
 // import Link from 'next/link';
 
-// import Link from "next/link";
-
 // const Home = () => {
 //   return (
 //     <div>
@@ -30,7 +28,7 @@
 //   return (
 //     <div>
 //         <h1>Welcome Home Page.</h1>
-//         <Link href='/DynamicRouting'>Go Dynamic Routing Page</Link>
+//         <Link href='/DynamicRouting'><button>Go Dynamic Routing Page</button></Link>
 //     </div>
 //   );
 // }
@@ -57,7 +55,7 @@
 //   return (
 //     <div>
 //         <h1>Welcome Home Page.</h1>
-//         <Link href='/CatchAllSegmentsOfRouteNextJS'>Goc Catch All Segments Of Route Page</Link>
+//         <Link href='/CatchAllSegmentsOfRouteNextJS'><button>Go Catch All Segments Of Route Page</button></Link>
 //     </div>
 //   );
 // }
@@ -92,6 +90,7 @@
 
 // fetch api for server side start
 
+// import Link from 'next/link';
 // const Home = () => {
 //   return (
 //     <div>

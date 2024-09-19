@@ -1,13 +1,13 @@
-// 'use client'
-// import React from 'react'
+'use client'
+import React from 'react'
 
-// const CheckPriceUsingClientSide = ({price}) => {
-//   return (
-//     <div>
-//         <button onClick={()=>alert(`Price : ${price}`)}>Check Price</button>
-//     </div>
-//   )
-// }
+const CheckPriceUsingClientSide = ({price}) => {
+  return (
+    <div>
+        <button onClick={()=>alert(`Price : ${price}`)}>Check Price</button>
+    </div>
+  )
+}
 
-// export default CheckPriceUsingClientSide
+export default CheckPriceUsingClientSide
 

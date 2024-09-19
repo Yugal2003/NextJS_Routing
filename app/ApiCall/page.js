@@ -100,38 +100,38 @@
 // server side and client side comp join start
 
 
-// import CheckPriceUsingClientSide from './CheckPriceUsingClientSide'
+import CheckPriceUsingClientSide from './CheckPriceUsingClientSide'
 
-// const fetchApi = async() =>{
-//     let data = await fetch('https://dummyjson.com/products');
-//     let jsondata = await data.json();
-//     console.log(jsondata);
-//     return jsondata.products;
-// }
+const fetchApi = async() =>{
+    let data = await fetch('https://dummyjson.com/products');
+    let jsondata = await data.json();
+    console.log(jsondata);
+    return jsondata.products;
+}
 
-// const ApiCall = async() =>{
-//     const apidata = await fetchApi();
-//     return(
-//         <div>
-//             <h1>Fetch Api Data</h1>
-//             {
-//                 apidata.map((ele,index) =>{
-//                     return(
-//                         <div key={index} style={{marginBlock:"5rem"}}>
-//                             <h2>Product : {index + 1}</h2>
-//                             <h2>Title : {ele.title}</h2>
-//                             <h2>Category : {ele.category}</h2>
-//                             <h2>Rating : {ele.rating}</h2>
-//                             <CheckPriceUsingClientSide price={ele.price}/>
-//                         </div>
-//                     )
-//                 })
-//             }
-//         </div>
-//     )
-// }
+const ApiCall = async() =>{
+    const apidata = await fetchApi();
+    return(
+        <div>
+            <h1>Fetch Api Data</h1>
+            {
+                apidata.map((ele,index) =>{
+                    return(
+                        <div key={index} style={{marginBlock:"5rem"}}>
+                            <h2>Product : {index + 1}</h2>
+                            <h2>Title : {ele.title}</h2>
+                            <h2>Category : {ele.category}</h2>
+                            <h2>Rating : {ele.rating}</h2>
+                            <CheckPriceUsingClientSide price={ele.price}/>
+                        </div>
+                    )
+                })
+            }
+        </div>
+    )
+}
 
-// export default ApiCall;
+export default ApiCall;
 
 
 // server side and client side comp join end
