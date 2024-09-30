@@ -28,3 +28,6 @@
 
 
 // when you have use an react state management(useState,useEffect),events(onclick) inside an nextjs project so first write an 'use client' at the top of the screen for particular page.js file
+
+
+// when you implement routing so first you should create an folder so that folder always write inside an app folder. Outside the app folder routing does not work
