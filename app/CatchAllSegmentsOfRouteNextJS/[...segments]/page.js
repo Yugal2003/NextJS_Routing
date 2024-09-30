@@ -20,7 +20,7 @@ const segments = ({params}) =>{
                 })
             }
             <Link href='/'><button>Back To Home Page</button></Link><br></br><br></br>
-            <Link href='/CatchAllSegmentsOfRouteNextJS'><button>Goback To Catch All Segments Page</button></Link>
+            <Link href='/CatchAllSegmentsOfRouteNextJS'><button>Go Back To Catch All Segments Page</button></Link>
         </div>
     )
 }

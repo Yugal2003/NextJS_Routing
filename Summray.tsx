@@ -24,3 +24,7 @@
 
 //1.<Link href="/about"><button>About Page</button></Link>: Navigates to the About page.
 //2.<Link href="/contact"><button>Contact Page</button></Link>: Navigates to the Contact page.
+
+
+
+// when you have use an react state management(useState,useEffect),events(onclick) inside an nextjs project so first write an 'use client' at the top of the screen for particular page.js file

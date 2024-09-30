@@ -90,17 +90,17 @@
 
 // fetch api for server side start
 
-// import Link from 'next/link';
-// const Home = () => {
-//   return (
-//     <div>
-//       <h1>Welcome Home Page</h1>
-//       <Link href='/ApiCall'><button>Go To API Call Page</button></Link>
-//     </div>
-//   );
-// };
+import Link from 'next/link';
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome Home Page</h1>
+      <Link href='/ApiCall'><button>Go To API Call Page</button></Link>
+    </div>
+  );
+};
 
-// export default Home;
+export default Home;
 
 // fetch api for server side start
 
@@ -119,18 +119,18 @@
 
 
 
-import Link from "next/link";
+// import Link from "next/link";
 
-const Home = () => {
-  return (
-    <div>
-        <h1>Welcome Home Page.</h1>
-        <Link href='/scriptcompo'>Go Location Page</Link>
-    </div>
-  );
-}
+// const Home = () => {
+//   return (
+//     <div>
+//         <h1>Welcome Home Page.</h1>
+//         <Link href='/scriptcompo'>Go Location Page</Link>
+//     </div>
+//   );
+// }
 
 
-export default Home;
+// export default Home;
 
 // nextjs script tag end
